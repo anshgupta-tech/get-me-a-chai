@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ☕ Get Me A Chai
 
-## Getting Started
+A modern fundraising web application where friends, followers, or fans can support creators by sending small contributions — similar to a **Buy Me A Coffee** platform.
 
-First, run the development server:
+This project is built using **Next.js** and **Tailwind CSS**, with **Razorpay (Demo Mode)** for payments and **NextAuth (GitHub Authentication)** for secure login.
+
+---
+
+## 🚀 Features
+
+- 🔐 GitHub Authentication using NextAuth
+- 💳 Razorpay Payment Gateway Integration (Demo Mode)
+- 📱 Fully Responsive Design
+- 🎨 Modern UI with Tailwind CSS
+- ⚡ Fast Performance with Next.js
+- 🗄 MongoDB Database Integration
+- 👨‍💻 Creator-friendly fundraising system
+
+---
+
+## 🛠 Tech Stack
+
+Frontend:
+- Next.js
+- React
+- Tailwind CSS
+
+Backend:
+- Next.js API Routes
+
+Authentication:
+- NextAuth (GitHub OAuth)
+
+Payments:
+- Razorpay (Test Mode)
+
+Database:
+- MongoDB
+
+Deployment:
+- Vercel
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/anshgupta-tech/get-me-a-chai.git
+```
+
+### 2. Go to the project directory
+
+```bash
+cd get-me-a-chai
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Create environment variables
+
+Create a `.env.local` file in the root folder.
+
+Example:
+
+```
+MONGO_URI=your_mongodb_connection_string
+GITHUB_ID=your_github_client_id
+GITHUB_SECRET=your_github_client_secret
+RAZORPAY_KEY_ID=your_key
+RAZORPAY_KEY_SECRET=your_secret
+NEXTAUTH_SECRET=your_nextauth_secret
+```
+
+### 5. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌐 Project Idea
 
-To learn more about Next.js, take a look at the following resources:
+**Get Me A Chai** is a platform that allows creators to receive support from friends, followers, or fans through small contributions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+It is inspired by platforms like **Buy Me A Coffee** where supporters can fund creators for their work.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📦 Future Improvements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Creator dashboard
+- Payment history
+- Real Razorpay production integration
+- Notifications system
+- User profiles
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 👨‍💻 Author
+
+**Ansh Gupta**
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
